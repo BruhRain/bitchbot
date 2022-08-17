@@ -12033,7 +12033,7 @@ elseif menu.game == "pf" then --SECTION PF BEGIN
 						end
 					end
 				end
-
+				setreadonly(P, false)
 				return newpart(P)
 			end
 
